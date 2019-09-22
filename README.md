@@ -54,7 +54,7 @@ You should use the following javascript functions:
 1. `if` [read again](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 1. `eval` [Evaluate?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval)
 1. Keep the following javascript examples in mind ( [you can run them](https://www.quora.com/How-do-I-run-JavaScript-code) ):
-  1. game logic demo:
+### A. game logic demo:
 ```javascript
 var gameOver = false;
 var evaluation = 'false';
@@ -73,7 +73,7 @@ if(gameOver) {
   alert("You win!!");
 }
 ```
-  1. foreach demo:
+### B. foreach demo:
 ```javascript
 var countToSschfiftyFive = [ //https://www.youtube.com/watch?v=-XccUMOQ978
   'Shwam.',
