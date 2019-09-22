@@ -97,3 +97,10 @@ countToSschfiftyFive.some((number, index) => {
 alert("That's how we count to Schfifty Five");
 ```
 
+## 104 ~ Beat the quiz
+Can you beat the quiz you just created? ( [I dont wan't to code, just let me play](https://jsfiddle.net/azucpkr8/3/) )
+
+## Next steps...
+Maybe you want to [finish a game of pong](https://github.com/luxus1337/pong-vanilla-js)?
+
+
