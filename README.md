@@ -43,14 +43,14 @@ var conditions = [
   'true && true',
   'false && false',
   'true && false',
-  'false && tru'e
+  'false && true'
 ];
 ```
 Now we want to to ask the user each condition and following this we want to evaluate the actual answer to be correct or not.
 
 You should use the following javascript functions:
 1. `confirm` [what?](https://developer.mozilla.org/en-US/docs/Web/API/Window/confirm)
-1. `foreach` [for how many?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach)
+1. `some` [for how many?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/some)
 1. `if` [read again](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else)
 1. `eval` [Evaluate?](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval)
 1. Keep the following javascript examples in mind ( [you can run them](https://www.quora.com/How-do-I-run-JavaScript-code) ):
@@ -87,11 +87,12 @@ var countToSschfiftyFive = [ //https://www.youtube.com/watch?v=-XccUMOQ978
   "Schfifty Five",
 ];
 alert("Let me tell you how to count to Schfifty Five");
-countToSschfiftyFive.forEach((number, index) => {
+countToSschfiftyFive.some((number, index) => {
   if(index === countToSschfiftyFive.length - 1) {
     alert("What you say?");
   }
   alert(number);
+  return false; // we just want to loop it all, so it's always false
 });
 alert("That's how we count to Schfifty Five");
 ```
