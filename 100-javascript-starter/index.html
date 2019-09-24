@@ -12,10 +12,12 @@
         Use it by opening this file in a browser.
     -->
     <script>
-        // first alert the user hello world
-        alert("Hello world");
-        // then write it to the document
-        document.write("Hello world");    
+        var answer = confirm("Do you confirm?");
+        if (answer) {
+            alert("You do! :D");
+        } else {
+            alert("You don't :(");
+        } 
     </script>
 </body>
 </html>
